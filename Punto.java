@@ -32,5 +32,5 @@ public class Punto {
 		this.coordenadaY = coordenadaY;
 	}
 	
-	}
 }
+

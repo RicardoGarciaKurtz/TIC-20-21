@@ -8,6 +8,11 @@ public class Circulo {
 			this.setRadio(radio);
 			coordenadasCentro=new ParejaNumeros(centro_x,centro_y);
 	}
+		public Circulo(double radio){
+			this.setRadio(radio);		
+		}
+		public Circulo() {
+		}
 	double devuelveArea(){
 		double Area;
 		Area=(double) (Math.PI*getRadio()*getRadio());

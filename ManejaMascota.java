@@ -6,8 +6,10 @@ public class ManejaMascota {
 		// TODO Auto-generated method stub
 		Mascota miLindoGatito;
 		MascotaConCuidados miLindaTortuga;
+		Mascota miLindaPaloma;
 		miLindoGatito=new Mascota("gato","Silvestre",1);
 		miLindaTortuga=new MascotaConCuidados("tortuga ","rayo ",17);
+		miLindaPaloma=new Mascota ("cucurrucurru");
 		System.out.println("Uy, Uy, mi "+ miLindoGatito.getEspecie()+ " hace uy uy");
 		System.out.println("y se llama "+miLindoGatito.getNombre());
 		miLindaTortuga.setCuidados(" no estresarla ");

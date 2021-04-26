@@ -10,10 +10,14 @@ public class Mascota {
 		this.nombre = nombre;
 		this.edad = edad;
 	}
+	public Mascota(String nombre) {
+		this.nombre = nombre;
+		
+	
 
 		// TODO Auto-generated constructor stub
 	
- {
+ 
 		// TODO Auto-generated constructor stub
 	}
 
